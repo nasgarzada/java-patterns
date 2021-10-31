@@ -19,6 +19,9 @@ public class WeatherApp {
     }
 
     public void displayTemprature() {
+        if(screen == null){
+            throw new RuntimeException("there is no screen for output");
+        }
         var temp = getTemprature();
         screen.print("Temprature is: " + temp);
     }
