@@ -1,4 +1,4 @@
-package patterns.observer;
+package patterns.observer.screen;
 
 public class LcdDisplay implements Screen {
 

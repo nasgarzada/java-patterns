@@ -1,7 +1,9 @@
-package patterns.observer;
+package patterns.observer.screen;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import patterns.observer.Observable;
 
 public class ScreenManager implements Observable<Screen>, Screen {
     private List<Screen> screens;

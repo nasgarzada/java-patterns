@@ -1,8 +1,10 @@
-package patterns.observer;
+package patterns.observer.app;
 
 import java.math.BigDecimal;
 import java.math.MathContext;
 import java.util.Random;
+
+import patterns.observer.screen.Screen;
 
 public class WeatherApp {
     private Screen screen;
